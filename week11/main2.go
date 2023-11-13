@@ -15,7 +15,7 @@ func main() {
 		fmt.Println(value)
 	}
 	test := [3]string{"inha", "go", "student"}
-	testS := test[0:2]
+	testS := test[0:2] //testS := test[:2]
 	//testS := test[0:4] //error invalid argument index 4 out of bounds [0:4]
 	fmt.Println((len(testS)))
 }
